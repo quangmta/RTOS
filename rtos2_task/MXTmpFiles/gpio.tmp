@@ -1,0 +1,13 @@
+
+/**
+#t* @brief GPIO Initialization Function
+#t* @param None
+#t* @retval None
+#t*/
+static void MX_GPIO_Init(void)
+{
+#n#t/* GPIO Ports Clock Enable */
+#t__HAL_RCC_GPIOH_CLK_ENABLE();
+#n
+}
+#n
